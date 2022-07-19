@@ -1,0 +1,28 @@
+/* a questi elementi possiamo settare il padding, margin, border  */
+
+/* selettore (tag) e blocco di graffe */
+/* selettore di tutto il box*/
+* {
+    box-sizing: border-box;
+}
+#myDiv { /* id, questo selettore vince su quello che segue in questo esempio*/
+    color: white;
+    background-color: aliceblue;
+
+    padding: 50px;
+    border: 5px solid blue;
+    margin: 200px;
+
+}
+/* per puntare una classe */
+.myClass {
+    color: red;
+}
+/* per puntare una famiglia di elementi */
+div {
+    color: black;
+
+}
+.niceText {
+    color: orange;
+}
